@@ -33,7 +33,7 @@ p {
   color: #afafaf;
 }
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 30%;
 }
 
 .rotate-22 {
@@ -70,14 +70,19 @@ p {
 /* title img */
 
 .title-img {
-  width: 60%;
-  padding-top: 30px;
+  width: 40%;
+  transform: rotate(22deg);
+  position: absolute;
+  right:30%
 }
 
 /* features */
 
 #features {
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
 .feature-icon {
@@ -120,6 +125,7 @@ testimonial-image {
   margin: 20px 20px 50px;
 }
 /* pricing */
+
 #pricing {
   padding: 100px;
   text-align: center;
@@ -127,4 +133,30 @@ testimonial-image {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+/* call to action */
+
+#cta {
+  background-color: #ff4c68;
+  color: white;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.cta-heading {
+  font-family: "Montserrat-Light";
+  font-size: 3.5rem;
+  line-height: 3rem;
+}
+
+/* footer section */
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon{
+  margin:20px 10px;
 }
